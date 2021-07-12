@@ -81,3 +81,36 @@ export const ramdomImageList = [
     img: "https://picsum.photos/id/9/400/300"
   }
 ];
+
+export const ramdomImageListTeste2 = [
+  {
+    id: "0",
+    title: "alguma coisa",
+    datetime: "1231231",
+    lat: "12311231",
+    long: "12311231",
+    size: "10000",
+    img: "https://picsum.photos/id/9/400/300"
+  }
+];
+
+export const ramdomImageListTeste3 = [
+  {
+    id: "400",
+    title: "alguma coisa",
+    datetime: "1231231",
+    lat: "12311231",
+    long: "12311231",
+    size: "10000",
+    img: "https://picsum.photos/id/400/1920/1080"
+  },
+  {
+    id: "20",
+    title: "alguma coisa",
+    datetime: "1231231",
+    lat: "12311231",
+    long: "12311231",
+    size: "10000",
+    img: "https://picsum.photos/id/20/400/300"
+  }
+];

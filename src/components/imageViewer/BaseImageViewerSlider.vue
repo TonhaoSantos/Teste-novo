@@ -85,6 +85,7 @@ export default {
 }
 .prev-next-button {
   position: absolute;
+  z-index: 90003;
 }
 .prev-next-button:hover {
   cursor: pointer;

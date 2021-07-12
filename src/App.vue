@@ -1,36 +1,16 @@
 <template>
   <div id="app">
-    <p>Tela</p>
-    <BaseImageViewerImage :images="imageList" />
+    <TesteTela />
   </div>
 </template>
 
 <script>
-import BaseImageViewerImage from "./components/imageViewer/BaseImageViewerImage";
-import { ramdomImageList } from "./enums/imagesList";
+import TesteTela from "./components/TesteTela";
 
 export default {
   name: "App",
   components: {
-    BaseImageViewerImage,
-  },
-  data() {
-    return {
-      currentImage: "", // 15 9 400 70 40
-    };
-  },
-  computed: {
-    imageList() {
-      return ramdomImageList;
-    },
-  },
-  methods: {
-    changeImage(value) {
-      let currentValue = value;
-
-      if (this.currentImage === value) currentValue = "";
-      this.currentImage = currentValue;
-    },
+    TesteTela,
   },
 };
 </script>
